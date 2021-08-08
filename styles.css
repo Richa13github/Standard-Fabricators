@@ -1,0 +1,147 @@
+h1{
+  background-color: black;
+  margin: 0 auto 0 auto;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+.logo-img{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.top{
+  background-image: url("images/shutter new.jpg");
+  background-color: black;
+  background-size:cover;
+  width: 100%;
+  height: 700px;
+}
+.middle-container{
+  background-image: url("images/Untitled design.png");
+  background-size:cover;
+  width: 100%;
+  height: 700px;
+}
+#testimonal{
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.t-img{
+padding-top: 80px;
+height: 400px;
+width: 400px;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem ;
+}
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+.about-title{
+  padding-top: 100px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+.middle{
+  text-align: center;
+  padding-left: 1000px;
+  font-size: 5rem;
+}
+.mid-content{
+  text-align: center;
+  padding-left: 1000px;
+}
+.about-container{
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  width: 100%;
+  height:700px;
+}
+.about-content{
+  color: white;
+  padding-top: 60px;
+  text-align: center;
+  padding-left: 600px;
+}
+.card-deck{
+  margin: 25px 50px;
+}
+.card-img-1{
+  height: 25rem;
+
+}
+.card-img-2{
+  height: 25rem;
+}
+.card-img-3{
+  height: 25rem;
+}
+#award{
+
+  background-image: url("images/award background.jpg");
+}
+.award-title{
+  padding-top: 90px;
+}
+.award-img{
+  width: 300px;
+  margin-left: 350px;
+  margin-bottom: 70px;
+  height: 450px;
+}
+.award-name{
+  font-family: 'Tangerine', cursive;
+  font-size: 4rem;
+  margin-top: 200px;
+  padding-top: 100px;
+  color: white;
+}
+.contacth1{
+  background-color: #6e7c7c ;
+}
+.phone{
+  padding-top: 110px;
+}
+#contact{
+  margin: 0 auto 0 auto;
+  background-color: #6e7c7c ;
+  color: white;
+}
+#footer{
+  margin: 0 auto 0 auto;
+  margin-top: 0;
+  text-align: center;
+  background-color: #435560;
+  color: white;
+  height: 40px;
+}
+
+/* .navbar{
+background-color: black;
+} */
+.navbar-brand{
+  color: white;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 3rem;
+}
+
+.nav-link{
+  color: white;
+}
+
+/* for image to appear below in mobile mode */
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
